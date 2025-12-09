@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  oracle-db:
+    image: container-registry.oracle.com/database/free:latest
+    container_name: oracle-local
+    ports:
+      - "1521:1521"
+    environment:
+      - ORACLE_PWD=Lateral12$
+    volumes:
+      - oracle-data:/Users/franz2897/Documents/master/db/final_project/.data
+volumes:
+  oracle-data:
