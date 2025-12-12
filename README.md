@@ -9,3 +9,6 @@ The goal of this project is to transform raw Formula 1 data stored in CSV files 
 - **Performance Optimization**: Fine-tune database performance using indexes and partitions.
 - **Oracle Database as a Service**: The project uses Oracle Database as a service, leveraging the official Oracle image repository.
 
+### Explanation vide
+
+[Watch the explanation video here](https://www.youtube.com/watch?v=0zWrRH4oWGE)
